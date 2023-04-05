@@ -13,6 +13,15 @@
 		2713280029DB747E000E27E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271327FF29DB747E000E27E0 /* Preview Assets.xcassets */; };
 		2713280229DB747E000E27E0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713280129DB747E000E27E0 /* Persistence.swift */; };
 		2713280529DB747E000E27E0 /* WorkoutBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2713280329DB747E000E27E0 /* WorkoutBuddy.xcdatamodeld */; };
+		2713280E29DB887A000E27E0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713280D29DB887A000E27E0 /* SettingsView.swift */; };
+		2713281029DB888D000E27E0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713280F29DB888D000E27E0 /* HomeView.swift */; };
+		2713281229DB88AC000E27E0 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713281129DB88AC000E27E0 /* StatisticsView.swift */; };
+		2713281529DB8D30000E27E0 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713281429DB8D30000E27E0 /* Unit.swift */; };
+		2713281829DB916A000E27E0 /* SetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713281729DB916A000E27E0 /* SetExtensions.swift */; };
+		2713281A29DDCDC1000E27E0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713281929DDCDC1000E27E0 /* User.swift */; };
+		2713281D29DDD963000E27E0 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713281C29DDD963000E27E0 /* Setting.swift */; };
+		2713282229DDDB08000E27E0 /* WeightUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713282129DDDB08000E27E0 /* WeightUtility.swift */; };
+		2713282729DDE1A9000E27E0 /* SettingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713282629DDE1A9000E27E0 /* SettingCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		2713280129DB747E000E27E0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2713280429DB747E000E27E0 /* WorkoutBuddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkoutBuddy.xcdatamodel; sourceTree = "<group>"; };
 		2713280629DB747E000E27E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2713280D29DB887A000E27E0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2713280F29DB888D000E27E0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2713281129DB88AC000E27E0 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		2713281429DB8D30000E27E0 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		2713281729DB916A000E27E0 /* SetExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetExtensions.swift; sourceTree = "<group>"; };
+		2713281929DDCDC1000E27E0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2713281C29DDD963000E27E0 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		2713282129DDDB08000E27E0 /* WeightUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightUtility.swift; sourceTree = "<group>"; };
+		2713282629DDE1A9000E27E0 /* SettingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,11 @@
 		271327F729DB7475000E27E0 /* WorkoutBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				2713282029DDDAD8000E27E0 /* Utilities */,
+				2713281B29DDD952000E27E0 /* Settings */,
+				2713281629DB9151000E27E0 /* Extensions */,
+				2713281329DB8D24000E27E0 /* Models */,
+				2713280C29DB886C000E27E0 /* Views */,
 				271327F829DB7475000E27E0 /* WorkoutBuddyApp.swift */,
 				271327FA29DB7475000E27E0 /* ContentView.swift */,
 				271327FC29DB747E000E27E0 /* Assets.xcassets */,
@@ -73,6 +96,58 @@
 				271327FF29DB747E000E27E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2713280C29DB886C000E27E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2713282529DDE16E000E27E0 /* Components */,
+				2713280D29DB887A000E27E0 /* SettingsView.swift */,
+				2713280F29DB888D000E27E0 /* HomeView.swift */,
+				2713281129DB88AC000E27E0 /* StatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2713281329DB8D24000E27E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2713281429DB8D30000E27E0 /* Unit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2713281629DB9151000E27E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2713281729DB916A000E27E0 /* SetExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2713281B29DDD952000E27E0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2713281929DDCDC1000E27E0 /* User.swift */,
+				2713281C29DDD963000E27E0 /* Setting.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2713282029DDDAD8000E27E0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2713282129DDDB08000E27E0 /* WeightUtility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2713282529DDE16E000E27E0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2713282629DDE1A9000E27E0 /* SettingCard.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +220,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2713280E29DB887A000E27E0 /* SettingsView.swift in Sources */,
+				2713281829DB916A000E27E0 /* SetExtensions.swift in Sources */,
+				2713282229DDDB08000E27E0 /* WeightUtility.swift in Sources */,
 				2713280529DB747E000E27E0 /* WorkoutBuddy.xcdatamodeld in Sources */,
 				2713280229DB747E000E27E0 /* Persistence.swift in Sources */,
+				2713281229DB88AC000E27E0 /* StatisticsView.swift in Sources */,
+				2713281029DB888D000E27E0 /* HomeView.swift in Sources */,
+				2713282729DDE1A9000E27E0 /* SettingCard.swift in Sources */,
+				2713281D29DDD963000E27E0 /* Setting.swift in Sources */,
+				2713281529DB8D30000E27E0 /* Unit.swift in Sources */,
 				271327FB29DB7475000E27E0 /* ContentView.swift in Sources */,
+				2713281A29DDCDC1000E27E0 /* User.swift in Sources */,
 				271327F929DB7475000E27E0 /* WorkoutBuddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
